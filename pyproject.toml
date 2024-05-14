@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "image-analysis"
+version = "0.1.0"
+description = ""
+authors = ["ZwickVitaly <zwickvitaly@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+pillow = "^10.3.0"
+matplotlib = "^3.8.4"
+numpy = "^1.26.4"
+pandas = "^2.2.2"
+opencv-python = "^4.9.0.80"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
